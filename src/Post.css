@@ -1,0 +1,32 @@
+.main_post{
+    height: 250px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right:20px;
+    transition: 0.25s ease;
+     border:1px solid #eaecee;
+     border-radius: 5px;
+     overflow: hidden;
+     margin-bottom: 30px;
+}
+.main_post:hover{
+    transform:translate3d(0,-6px,2px);
+    box-shadow: 1rem 2rem 5rem 0 rgba(0, 0, 0,0.7);
+    cursor: pointer;
+   
+}
+.post-img{
+    flex-basis: 40%;
+}
+.post-img > img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.post-text{
+    flex-basis: 60%;
+   
+}
