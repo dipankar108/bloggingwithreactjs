@@ -1,0 +1,26 @@
+.navigationbar{
+height: 40px;
+background-color: black;
+display: flex;
+justify-content:space-between ;
+justify-items: center;
+position: sticky;
+
+}
+._navigationbar{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 8px;
+   transition: 0.1s ease;
+   color: white;
+  
+
+}
+._navigationbar:hover{
+    color: aqua;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.linkcls{
+    text-decoration:none;
+}
